@@ -4,37 +4,28 @@ import { motion } from "framer-motion";
 import { fadeIn } from "../../framerMotion/variants";
 
 const experiences = [
-  
-  {
-    job: "Machine Learning Engineer",
-    project: "Spam Detection Model",
-    date: "Completed",
-    responsibilities: [
-      "Built a spam detection model using NLTK.",
-      "Implemented text preprocessing and feature extraction.",
-      "Trained and evaluated the model for accuracy.",
-    ],
-  },
   {
     job: "Machine Learning Engineer",
     project: "Housing Price Prediction Model",
-    date: "Completed",
+    date: "jun 03 25 - july 31",
     responsibilities: [
-      "Developed a predictive model using Random Forest and other ML techniques.",
-      "Preprocessed and analyzed housing dataset.",
-      "Optimized model performance for better accuracy.",
+      "Developed \"Employee Burnout Prediction\" using Linear Regression, analyzing employee datasets..",
+      "Gained hands-on experience in data preprocessing, feature engineering, and regression modeling",
+      "Strengthened skills in machine learning algorithms, data analysis, and predictive modeling",
     ],
   },
+  
   {
-    job: "Backend Developer",
-    project: "Quiz Application Backend",
-    date: "Ongoing",
+    job: "ccc digital india private limited Inter",
+    project: "Spam Detection Model",
+    date: "jun 02 25- Aug 02 25 ",
     responsibilities: [
-      "Developing the backend using Spring Boot.",
-      "Designing RESTful APIs for quiz management.",
-      "Ensuring security and scalability of the application.",
+      "Developed responsive web interfaces using React.js",
+      "Integrated Firebase for authentication and real-time database.",
+      "Implemented CRUD operations with Firestore for data management",
     ],
   },
+  
 ];
 
 

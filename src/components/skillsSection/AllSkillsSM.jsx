@@ -1,48 +1,75 @@
 import { FaHtml5 } from "react-icons/fa";
 import { FaCss3Alt } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io";
-import { SiTypescript } from "react-icons/si";
+import { SiFastapi, SiFirebase, SiOpenai, SiRender, SiSpringboot, SiTensorflow, SiTypescript } from "react-icons/si";
 import { FaReact } from "react-icons/fa";
 import { SiRedux } from "react-icons/si";
 import { SiNextdotjs } from "react-icons/si";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { motion } from "framer-motion";
 import { fadeIn } from "../../framerMotion/variants";
+import { FaJava, FaPython, FaServer } from "react-icons/fa6";
 
 const skills = [
   {
-    skill: "HTML",
-    icon: FaHtml5,
+    skill: "Java",
+    icon: FaJava,
   },
   {
-    skill: "CSS",
-    icon: FaCss3Alt,
+    skill: "Python",
+    icon: FaPython,
   },
   {
     skill: "JavaScript",
     icon: IoLogoJavascript,
   },
   {
-    skill: "TypeScript",
-    icon: SiTypescript,
+    skill: "Spring Boot",
+    icon: SiSpringboot,
   },
+
   {
     skill: "ReactJS",
     icon: FaReact,
+  },
+  {
+    skill: "TensorFlow",
+    icon: SiTensorflow,
+  },
+  {
+    skill: "LangGraph",
+    icon: SiOpenai, 
+  },
+  {
+    skill: "LangChain",
+    icon: SiOpenai,
+  },
+  {
+    skill: "Autogen",
+    icon: SiOpenai, 
+  },
+  {
+    skill: "Render",
+    icon: SiRender, 
   },
   {
     skill: "Redux",
     icon: SiRedux,
   },
   {
-    skill: "NextJS",
-    icon: SiNextdotjs,
+    skill: "Firebase",
+    icon: SiFirebase,
   },
   {
-    skill: "TailwindCSS",
-    icon: RiTailwindCssFill,
+    skill: "FastAPI",
+    icon: SiFastapi,
+  },
+  {
+    skill: "Microservices",
+    icon: FaServer, 
   },
 ];
+
 
 const AllSkillsSM = () => {
   return (
