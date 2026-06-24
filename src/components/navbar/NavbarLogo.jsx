@@ -5,7 +5,7 @@ const NavbarLogo = () => {
         Sai Venkata Sandeep Gralapati
       </h1>
       <h1 className="text-white font-special font-extrabold text-4xl md:hidden sm:block">
-        AQ
+        SVS
       </h1>
     </div>
   );

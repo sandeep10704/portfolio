@@ -12,12 +12,12 @@ const HeroPic = () => {
       className=" h-full flex items-center justify-center "
     >
       <img
-        src="../../public/images/HexaPic.png"
+        src="https://res.cloudinary.com/dq7lkkucz/image/upload/v1782276951/sandeepPic_xnuxct.png"
         alt="sandeep"
-        className="max-h-[450px] w-auto"
+        className="rounded-full max-h-[400px] w-auto"
       />
 
-      <div className=" absolute -z-10 flex justify-center items-center animate-pulse ">
+      <div className=" absolute z-10 flex justify-center items-center animate-pulse ">
         <PiHexagonThin className=" md:h-[90%] sm:h-[120%] min-h-[600px] w-auto text-cyan blur-md animate-[spin_20s_linear_infinite] " />
       </div>
     </motion.div>
